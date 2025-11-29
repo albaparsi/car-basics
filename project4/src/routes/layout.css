@@ -1,0 +1,27 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --color-primary: #f05996;
+  --color-primary-strong: #df0b63;
+  --color-accent: #f7c9d9;
+  --color-bg: #fff4e8;
+  --color-surface: #fbeee1;
+  --color-border: #e6c9bc;
+  --color-text-main: #3a3a3a;
+  --color-text-muted: #6a6a6a;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-main);
+}
