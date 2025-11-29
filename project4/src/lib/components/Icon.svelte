@@ -79,6 +79,20 @@
       stroke-linejoin="round"
     />
     <path d="M12 10v3" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+  {:else if name === 'sound'}
+    <!-- Sound wave icon -->
+    <path d="M8 9v6" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M11 7v10" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M14 9v6" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M17 5v14" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+  {:else if name === 'steering'}
+    <!-- Steering wheel icon -->
+    <circle cx="12" cy="12" r="6" stroke="var(--color-primary)" stroke-width="1.6" />
+    <circle cx="12" cy="12" r="2" stroke="var(--color-primary)" stroke-width="1.6" />
+    <path d="M12 6v-2" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M12 18v2" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M6 12h-2" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M18 12h2" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
   {:else}
     <!-- Fallback dot -->
     <circle cx="12" cy="12" r="3" fill="var(--color-primary)" />

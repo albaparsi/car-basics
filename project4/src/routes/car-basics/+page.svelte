@@ -151,5 +151,18 @@
     background-color: var(--color-surface);
     margin-bottom: 0.5rem;
     border-radius: 0.75rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .warning-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: var(--color-primary);
+    opacity: 0.8;
   }
 </style>
