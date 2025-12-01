@@ -180,7 +180,7 @@
 <div class="container py-5" style="min-height: 80vh;">
   <!-- Hero Section -->
   <header class="mb-5">
-    <div class="d-flex justify-content-between align-items-start flex-wrap gap-3 mb-3">
+    <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-3">
       <h1 class="display-5 fw-bold mb-0" style="color: var(--color-primary);">Mechanic Checklist</h1>
       <button
         class="btn"
