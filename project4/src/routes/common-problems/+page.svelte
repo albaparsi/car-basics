@@ -42,47 +42,30 @@
 <div class="container py-5" style="min-height: 80vh;">
   <header class="mb-5">
     <h1 class="display-5 fw-bold mb-3" style="color: var(--color-primary);">Common Problems</h1>
-    <div class="d-flex align-items-start gap-2 mb-4">
-      <p class="lead mb-0" style="color: var(--color-text-main); max-width: 600px;">
-        Pick the thing your car is doing
-      </p>
-      <button
-        class="btn btn-link p-0"
-        type="button"
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="This is a guide to help you understand symptoms, not a full diagnosis tool. Always consult a mechanic for serious issues."
-        style="color: var(--color-text-muted); text-decoration: none;"
-      >
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" />
-          <path d="M12 8v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-          <circle cx="12" cy="16" r="0.8" fill="currentColor" />
-        </svg>
-      </button>
-    </div>
+    <p class="lead mb-4" style="color: var(--color-text-main); max-width: 600px;">
+      Pick the thing your car is doing
+    </p>
 
     <!-- Symptom Picker -->
-    <div class="row g-3">
+    <div class="row g-4">
       {#each symptoms as symptom}
         <div class="col-6 col-md-3">
-          <button
-            class="symptom-picker w-100"
-            on:click={() => scrollToSection(symptom.id)}
-            type="button"
-          >
-            <div class="d-flex flex-column align-items-center text-center p-3">
-              <div class="mb-2">
-                <Icon name={symptom.icon} size={32} />
-              </div>
-              <h3 class="h6 fw-bold mb-1" style="color: var(--color-text-main);">
-                {symptom.title}
-              </h3>
-              <p class="small mb-0" style="color: var(--color-text-muted);">
-                {symptom.description}
-              </p>
-            </div>
-          </button>
+          <div class="card section-card h-100">
+            <button
+              class="card-body w-100 h-100 text-start d-flex flex-column justify-content-start"
+              style="
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                padding: 1.5rem;
+              "
+              on:click={() => scrollToSection(symptom.id)}
+              type="button"
+            >
+              <h3 class="card-title fw-bold mb-3" style="color: var(--color-text-main);">{symptom.title}</h3>
+              <p class="card-text flex-grow-1 mb-0" style="color: var(--color-text-muted);">{symptom.description}</p>
+            </button>
+          </div>
         </div>
       {/each}
     </div>
@@ -321,20 +304,17 @@
 </div>
 
 <style>
-  .symptom-picker {
+  .section-card {
     background-color: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(58, 58, 58, 0.05);
+    box-shadow: 0 6px 16px rgba(58, 58, 58, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    cursor: pointer;
-    border: none;
-    padding: 0;
     position: relative;
     overflow: hidden;
   }
 
-  .symptom-picker::before {
+  .section-card::before {
     content: '';
     position: absolute;
     left: 0;
@@ -345,9 +325,10 @@
     opacity: 0.8;
   }
 
-  .symptom-picker:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(58, 58, 58, 0.1);
+  .section-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(58, 58, 58, 0.08);
+    cursor: pointer;
   }
 
   .problem-card-visual {

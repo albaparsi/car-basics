@@ -8,7 +8,6 @@
     { label: 'Repair Costs', href: '/repair-costs' },
     { label: 'DIY Basics', href: '/diy-basics' },
     { label: 'Mechanic Checklist', href: '/mechanic-checklist' },
-    { label: 'About', href: '/about' }
   ];
 </script>
 

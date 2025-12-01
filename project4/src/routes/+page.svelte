@@ -13,7 +13,7 @@
       <a href="/car-basics" class="text-decoration-none">
         <div class="card section-card h-100">
           <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mb-3" style="color: var(--color-primary);">Car Basics</h3>
+            <h3 class="card-title fw-bold mb-3" style="color: var(--color-text-main);">Car Basics</h3>
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               Learn the fundamentals of how your car works and understand the essential components.
             </p>
@@ -26,7 +26,7 @@
       <a href="/common-problems" class="text-decoration-none">
         <div class="card section-card h-100">
           <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mb-3" style="color: var(--color-primary);">Common Problems</h3>
+            <h3 class="card-title fw-bold mb-3" style="color: var(--color-text-main);">Common Problems</h3>
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               Identify and understand common car issues you might encounter.
             </p>
@@ -39,7 +39,7 @@
       <a href="/repair-costs" class="text-decoration-none">
         <div class="card section-card h-100">
           <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mb-3" style="color: var(--color-primary);">Repair Costs</h3>
+            <h3 class="card-title fw-bold mb-3" style="color: var(--color-text-main);">Repair Costs</h3>
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               Get an idea of typical repair costs so you know what to expect.
             </p>
@@ -52,7 +52,7 @@
       <a href="/diy-basics" class="text-decoration-none">
         <div class="card section-card h-100">
           <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mb-3" style="color: var(--color-primary);">DIY Basics</h3>
+            <h3 class="card-title fw-bold mb-3" style="color: var(--color-text-main);">DIY Basics</h3>
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               Simple maintenance tasks you can safely do yourself.
             </p>
@@ -65,7 +65,7 @@
       <a href="/mechanic-checklist" class="text-decoration-none">
         <div class="card section-card h-100">
           <div class="card-body d-flex flex-column">
-            <h3 class="card-title fw-bold mb-3" style="color: var(--color-primary);">Mechanic Checklist</h3>
+            <h3 class="card-title fw-bold mb-3" style="color: var(--color-text-main);">Mechanic Checklist</h3>
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               What to ask and check before going to the mechanic.
             </p>

@@ -93,6 +93,11 @@
     <path d="M12 18v2" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
     <path d="M6 12h-2" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
     <path d="M18 12h2" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+  {:else if name === 'info'}
+    <!-- Info icon -->
+    <circle cx="12" cy="12" r="10" stroke="var(--color-primary)" stroke-width="1.6" fill="none" />
+    <path d="M12 8v4" stroke="var(--color-primary)" stroke-width="1.6" stroke-linecap="round" />
+    <circle cx="12" cy="16" r="1" fill="var(--color-primary)" />
   {:else}
     <!-- Fallback dot -->
     <circle cx="12" cy="12" r="3" fill="var(--color-primary)" />
