@@ -1,5 +1,6 @@
 <script>
   import { costs } from '$lib/data/costs.js';
+  import { tick } from 'svelte';
 
   // State management
   /**
@@ -10,8 +11,25 @@
   /**
    * @param {string} serviceId
    */
-  function toggleCard(serviceId) {
+  async function toggleCard(serviceId) {
+    const wasExpanded = expandedCard === serviceId;
     expandedCard = expandedCard === serviceId ? null : serviceId;
+    
+    // If we're expanding a card (not collapsing), scroll to the detail panel
+    if (!wasExpanded && expandedCard) {
+      await tick(); // Wait for DOM to update
+      scrollToDetailPanel();
+    }
+  }
+
+  /**
+   * Scrolls to the detail panel smoothly
+   */
+  function scrollToDetailPanel() {
+    const element = document.getElementById('detail-panel');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 
   /**
@@ -125,6 +143,7 @@
     {@const selectedCost = costs.find(c => c.id === expandedCard)}
     {#if selectedCost}
       <div 
+        id="detail-panel"
         class="detail-panel"
         style="
           border: 2px solid var(--color-primary);

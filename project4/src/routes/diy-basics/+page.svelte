@@ -1,5 +1,5 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount, tick } from 'svelte';
 
   // Task data structure
   let tasks = [
@@ -295,8 +295,25 @@
   /**
    * @param {string} taskId
    */
-  function toggleCard(taskId) {
+  async function toggleCard(taskId) {
+    const wasExpanded = expandedCard === taskId;
     expandedCard = expandedCard === taskId ? null : taskId;
+    
+    // If we're expanding a card (not collapsing), scroll to the detail panel
+    if (!wasExpanded && expandedCard) {
+      await tick(); // Wait for DOM to update
+      scrollToDetailPanel();
+    }
+  }
+
+  /**
+   * Scrolls to the detail panel smoothly
+   */
+  function scrollToDetailPanel() {
+    const element = document.getElementById('detail-panel');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 
   /**
@@ -418,6 +435,7 @@
     {@const selectedTask = tasks.find(t => t.id === expandedCard)}
     {#if selectedTask}
       <div 
+        id="detail-panel"
         class="detail-panel"
         style="
           border: 2px solid var(--color-primary);
@@ -476,7 +494,6 @@
                   <label 
                     class="d-flex align-items-center" 
                     style="cursor: pointer;"
-                    on:click|stopPropagation
                   >
                     <input 
                       type="checkbox" 
@@ -508,7 +525,6 @@
                   <label 
                     class="d-flex align-items-center" 
                     style="cursor: pointer;"
-                    on:click|stopPropagation
                   >
                     <input 
                       type="checkbox" 
@@ -577,7 +593,6 @@
                     <label 
                       class="d-flex align-items-center me-3"
                       style="cursor: pointer; margin-top: 0.25rem;"
-                      on:click|stopPropagation
                     >
                       <input 
                         type="checkbox" 
