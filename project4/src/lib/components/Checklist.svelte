@@ -1,4 +1,7 @@
 <script>
+  /**
+   * @type {Array<{item: string, checked: boolean}>}
+   */
   export let items = [];
 </script>
 
