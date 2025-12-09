@@ -382,7 +382,7 @@
 
 <div class="container py-5" style="min-height: 80vh;">
   <h1 class="display-5 fw-bold mb-4" style="color: var(--color-primary);">DIY Basics</h1>
-  <p class="lead mb-5" style="color: var(--color-text-muted);">Learn essential car maintenance tasks with step-by-step guidance.</p>
+  <p class="lead mb-5" style="color: var(--color-text-main);">Learn essential car maintenance tasks with step-by-step guidance.</p>
 
   <!-- Task Cards Grid (Task Chooser) -->
   <div class="row g-4 mb-5">

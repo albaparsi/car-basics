@@ -58,10 +58,10 @@
   <!-- Hero Section -->
   <div class="mb-5">
     <h1 class="display-5 fw-bold mb-3" style="color: var(--color-primary);">Repair Cost Guide</h1>
-    <p class="lead mb-2" style="color: var(--color-text-muted);">
+    <p class="lead mb-2" style="color: var(--color-text-main);">
       Understand typical costs for common car repairs and maintenance services.
     </p>
-    <p class="small mb-0" style="color: var(--color-text-muted); font-style: italic;">
+    <p class="small mb-0" style="color: var(--color-text-main); font-style: italic;">
       Approximate ranges, actual costs vary.
     </p>
   </div>
