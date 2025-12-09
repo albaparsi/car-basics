@@ -424,6 +424,9 @@
               </span>
             </div>
             <p class="card-text flex-grow-1 mb-0" style="color: var(--color-text-muted); line-height: 1.5;">{task.description}</p>
+            <div class="d-flex align-items-center mt-auto" style="color: var(--color-primary);">
+              <span class="small fw-semibold me-2">Click to see more details</span>
+            </div>
           </button>
         </div>
       </div>

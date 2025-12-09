@@ -17,6 +17,9 @@
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               Learn the fundamentals of how your car works and understand the essential components.
             </p>
+            <div class="d-flex align-items-center mt-auto" style="color: var(--color-primary);">
+              <span class="small fw-semibold me-2">Click to see more details</span>
+            </div>
           </div>
         </div>
       </a>
@@ -30,6 +33,9 @@
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               Identify and understand common car issues you might encounter.
             </p>
+            <div class="d-flex align-items-center mt-auto" style="color: var(--color-primary);">
+              <span class="small fw-semibold me-2">Click to see more details</span>
+            </div>
           </div>
         </div>
       </a>
@@ -43,6 +49,9 @@
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               Get an idea of typical repair costs so you know what to expect.
             </p>
+            <div class="d-flex align-items-center mt-auto" style="color: var(--color-primary);">
+              <span class="small fw-semibold me-2">Click to see more details</span>
+            </div>
           </div>
         </div>
       </a>
@@ -56,6 +65,9 @@
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               Simple maintenance tasks you can safely do yourself.
             </p>
+            <div class="d-flex align-items-center mt-auto" style="color: var(--color-primary);">
+              <span class="small fw-semibold me-2">Click to see more details</span>
+            </div>
           </div>
         </div>
       </a>
@@ -69,6 +81,9 @@
             <p class="card-text flex-grow-1" style="color: var(--color-text-muted);">
               What to ask and check before going to the mechanic.
             </p>
+            <div class="d-flex align-items-center mt-auto" style="color: var(--color-primary);">
+              <span class="small fw-semibold me-2">Click to see more details</span>
+            </div>
           </div>
         </div>
       </a>

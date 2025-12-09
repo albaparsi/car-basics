@@ -64,6 +64,9 @@
             >
               <h3 class="card-title fw-bold mb-3" style="color: var(--color-text-main);">{symptom.title}</h3>
               <p class="card-text flex-grow-1 mb-0" style="color: var(--color-text-muted);">{symptom.description}</p>
+              <div class="d-flex align-items-center mt-auto" style="color: var(--color-primary);">
+                <span class="small fw-semibold me-2">Click to see more details</span>
+              </div>
             </button>
           </div>
         </div>
@@ -255,7 +258,7 @@
             <span class="leak-swatch leak-coolant"></span>
             <div class="leak-content">
               <p class="mb-1 fw-bold small" style="color: var(--color-text-main);">Green / yellow / orange</p>
-              <p class="mb-1 small text-muted">Likely coolant — can lead to overheating</p>
+              <p class="mb-1 small text-muted">Likely coolant, can lead to overheating</p>
             </div>
             <span class="leak-action leak-action-serious">Serious</span>
           </div>
@@ -264,7 +267,7 @@
             <span class="leak-swatch leak-oil"></span>
             <div class="leak-content">
               <p class="mb-1 fw-bold small" style="color: var(--color-text-main);">Brown / black</p>
-              <p class="mb-1 small text-muted">Often engine oil — car may still drive</p>
+              <p class="mb-1 small text-muted">Often engine oil, car may still drive</p>
             </div>
             <span class="leak-action leak-action-serious">Serious</span>
           </div>
