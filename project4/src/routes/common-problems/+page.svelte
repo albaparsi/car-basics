@@ -95,7 +95,7 @@
             <h3 class="h6 text-uppercase small fw-semibold mb-2" style="color: var(--color-text-main);">
               What you notice
             </h3>
-            <ul class="mb-0 small" style="color: var(--color-text-main);">
+            <ul class="mb-0" style="color: var(--color-text-main);">
               <li>Key turns but nothing happens, or you hear a single click</li>
               <li>Lights or dashboard might be dim or completely off</li>
             </ul>
@@ -107,7 +107,7 @@
             <h3 class="h6 text-uppercase small fw-semibold mb-2" style="color: var(--color-text-main);">
               What it might mean
             </h3>
-            <ul class="mb-0 small" style="color: var(--color-text-main);">
+            <ul class="mb-0" style="color: var(--color-text-main);">
               <li>Dead or weak battery</li>
               <li>Loose or corroded battery cables</li>
               <li>Out of fuel or very low fuel</li>
@@ -121,7 +121,7 @@
             <h3 class="h6 text-uppercase small fw-semibold mb-2" style="color: var(--color-text-main);">
               Try this first
             </h3>
-            <ul class="mb-0 small" style="color: var(--color-text-main);">
+            <ul class="mb-0" style="color: var(--color-text-main);">
               <li>Check if interior lights or dashboard come on and if not, the battery may be dead</li>
               <li>Make sure there is fuel in the tank</li>
               <li>Move the gear selector firmly into "Park" and try again</li>
@@ -153,32 +153,32 @@
         <div class="noise-subsection">
           <div>
             <p class="mb-1 fw-bold" style="color: var(--color-text-main);">Squealing when braking</p>
-            <p class="mb-1 small text-muted">Often worn brake pads or a warning tab touching the rotor</p>
-            <p class="mb-0 small text-muted"><strong>Is it safe?</strong> Usually drivable for a short time, but schedule a check soon.</p>
+            <p class="mb-1 text-muted">Often worn brake pads or a warning tab touching the rotor</p>
+            <p class="mb-0 text-muted"><strong>Is it safe?</strong> Usually drivable for a short time, but schedule a check soon.</p>
           </div>
         </div>
 
         <div class="noise-subsection">
           <div>
             <p class="mb-1 fw-bold" style="color: var(--color-text-main);">Grinding when braking</p>
-            <p class="mb-1 small text-muted">Brake pads may be worn down completely, causing metal-on-metal contact</p>
-            <p class="mb-0 small text-muted"><strong>Is it safe?</strong> Stop driving and have brakes inspected immediately.</p>
+            <p class="mb-1 text-muted">Brake pads may be worn down completely, causing metal-on-metal contact</p>
+            <p class="mb-0 text-muted"><strong>Is it safe?</strong> Stop driving and have brakes inspected immediately.</p>
           </div>
         </div>
 
         <div class="noise-subsection">
           <div>
             <p class="mb-1 fw-bold" style="color: var(--color-text-main);">Clicking when turning</p>
-            <p class="mb-1 small text-muted">Could be a worn CV joint or steering/suspension part</p>
-            <p class="mb-0 small text-muted"><strong>Is it safe?</strong> Usually drivable for a short time, but schedule a check soon.</p>
+            <p class="mb-1 text-muted">Could be a worn CV joint or steering/suspension part</p>
+            <p class="mb-0 text-muted"><strong>Is it safe?</strong> Usually drivable for a short time, but schedule a check soon.</p>
           </div>
         </div>
 
         <div class="noise-subsection">
           <div>
             <p class="mb-1 fw-bold" style="color: var(--color-text-main);">Loud exhaust or rumbling</p>
-            <p class="mb-1 small text-muted">Possible hole or break in the exhaust system</p>
-            <p class="mb-0 small text-muted"><strong>Is it safe?</strong> Usually drivable for a short time, but schedule a check soon.</p>
+            <p class="mb-1 text-muted">Possible hole or break in the exhaust system</p>
+            <p class="mb-0 text-muted"><strong>Is it safe?</strong> Usually drivable for a short time, but schedule a check soon.</p>
           </div>
         </div>
       </div>
@@ -204,24 +204,24 @@
         <div class="noise-subsection">
           <div>
             <p class="mb-1 fw-bold" style="color: var(--color-text-main);">Shaking at highway speeds</p>
-            <p class="mb-1 small text-muted">Often tire balance, alignment, or a tire that's starting to fail</p>
-            <p class="mb-0 small text-muted"><strong>Is it safe?</strong> Usually drivable for a short time, but schedule a check soon.</p>
+            <p class="mb-1 text-muted">Often tire balance, alignment, or a tire that's starting to fail</p>
+            <p class="mb-0 text-muted"><strong>Is it safe?</strong> Usually drivable for a short time, but schedule a check soon.</p>
           </div>
         </div>
 
         <div class="noise-subsection">
           <div>
             <p class="mb-1 fw-bold" style="color: var(--color-text-main);">Shaking when braking</p>
-            <p class="mb-1 small text-muted">Commonly warped brake rotors or uneven brake wear</p>
-            <p class="mb-0 small text-muted"><strong>Is it safe?</strong> Drive gently and have brakes inspected soon.</p>
+            <p class="mb-1 text-muted">Commonly warped brake rotors or uneven brake wear</p>
+            <p class="mb-0 text-muted"><strong>Is it safe?</strong> Drive gently and have brakes inspected soon.</p>
           </div>
         </div>
 
         <div class="noise-subsection">
           <div>
             <p class="mb-1 fw-bold" style="color: var(--color-text-main);">Shaking while stopped (at idle)</p>
-            <p class="mb-1 small text-muted">Could be an engine misfire, worn mounts, or dirty components</p>
-            <p class="mb-0 small text-muted"><strong>Is it safe?</strong> If the car feels rough, stalls, or the check engine light is on, get it checked soon.</p>
+            <p class="mb-1 text-muted">Could be an engine misfire, worn mounts, or dirty components</p>
+            <p class="mb-0 text-muted"><strong>Is it safe?</strong> If the car feels rough, stalls, or the check engine light is on, get it checked soon.</p>
           </div>
         </div>
       </div>
@@ -249,7 +249,7 @@
             <span class="leak-swatch leak-clear"></span>
             <div class="leak-content">
               <p class="mb-1 fw-bold small" style="color: var(--color-text-main);">Clear water</p>
-              <p class="mb-1 small text-muted">Usually A/C condensation</p>
+              <p class="mb-1 text-muted">Usually A/C condensation</p>
             </div>
             <span class="leak-action">Normal</span>
           </div>
@@ -257,8 +257,8 @@
           <div class="leak-item">
             <span class="leak-swatch leak-coolant"></span>
             <div class="leak-content">
-              <p class="mb-1 fw-bold small" style="color: var(--color-text-main);">Green / yellow / orange</p>
-              <p class="mb-1 small text-muted">Likely coolant, can lead to overheating</p>
+              <p class="mb-1 fw-bold small" style="color: var(--color-text-main);">Green / Yellow / Orange</p>
+              <p class="mb-1 text-muted">Likely coolant, can lead to overheating</p>
             </div>
             <span class="leak-action leak-action-serious">Serious</span>
           </div>
@@ -266,8 +266,8 @@
           <div class="leak-item">
             <span class="leak-swatch leak-oil"></span>
             <div class="leak-content">
-              <p class="mb-1 fw-bold small" style="color: var(--color-text-main);">Brown / black</p>
-              <p class="mb-1 small text-muted">Often engine oil, car may still drive</p>
+              <p class="mb-1 fw-bold small" style="color: var(--color-text-main);">Brown / Black</p>
+              <p class="mb-1 text-muted">Often engine oil, car may still drive</p>
             </div>
             <span class="leak-action leak-action-serious">Serious</span>
           </div>
@@ -275,8 +275,8 @@
           <div class="leak-item">
             <span class="leak-swatch leak-red"></span>
             <div class="leak-content">
-              <p class="mb-1 fw-bold small" style="color: var(--color-text-main);">Red / pink</p>
-              <p class="mb-1 small text-muted">Transmission, power steering, or brake fluid</p>
+              <p class="mb-1 fw-bold small" style="color: var(--color-text-main);">Red / Pink</p>
+              <p class="mb-1 text-muted">Transmission, power steering, or brake fluid</p>
             </div>
             <span class="leak-action leak-action-urgent">Urgent</span>
           </div>
@@ -437,7 +437,7 @@
   }
 
   .leak-action {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 600;
     padding: 0.25rem 0.5rem;
     border-radius: 999px;

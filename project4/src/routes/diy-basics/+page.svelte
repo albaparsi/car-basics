@@ -409,7 +409,7 @@
             <div class="d-flex gap-2 flex-wrap mb-2">
               <span 
                 style="
-                  font-size: 0.7rem;
+                  font-size: 0.8rem;
                   font-weight: 600;
                   padding: 0.25rem 0.5rem;
                   border-radius: 999px;
@@ -481,7 +481,7 @@
         >
           <div class="d-flex align-items-start">
             <span class="me-2" style="font-size: 1.2rem;">⚠️</span>
-            <p class="mb-0 small" style="color: var(--color-text-main);">{selectedTask.safetyBanner}</p>
+            <p class="mb-0" style="color: var(--color-text-main);">{selectedTask.safetyBanner}</p>
           </div>
         </div>
 
@@ -511,7 +511,7 @@
                     />
                     <span 
                       class="{tool.checked ? 'text-decoration-line-through opacity-50' : ''}"
-                      style="color: var(--color-text-main); font-size: 0.9rem;"
+                      style="color: var(--color-text-main);"
                     >
                       {tool.name}
                     </span>
@@ -542,7 +542,7 @@
                     />
                     <span 
                       class="{item.checked ? 'text-decoration-line-through opacity-50' : ''}"
-                      style="color: var(--color-text-main); font-size: 0.9rem;"
+                      style="color: var(--color-text-main);"
                     >
                       {item.item}
                     </span>
@@ -563,7 +563,6 @@
                   border-radius: 0.5rem;
                   background-color: var(--color-bg);
                   color: var(--color-text-main);
-                  font-size: 0.9rem;
                   min-height: 120px;
                 "
                 value={getNotes(selectedTask.id)}
@@ -630,7 +629,6 @@
                     class="mb-2"
                     style="
                       color: var(--color-text-muted);
-                      font-size: 0.9rem;
                     "
                   >
                     {step.content}
@@ -649,7 +647,7 @@
                     >
                       <div class="d-flex align-items-start">
                         <span class="me-2" style="font-size: 0.9rem;">⚠️</span>
-                        <p class="mb-0 small" style="color: var(--color-text-main);">{step.safetyNote}</p>
+                        <p class="mb-0" style="color: var(--color-text-main);">{step.safetyNote}</p>
                       </div>
                     </div>
                   {/if}

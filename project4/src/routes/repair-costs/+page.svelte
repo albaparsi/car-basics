@@ -113,7 +113,7 @@
             <div class="d-flex gap-2 flex-wrap mb-3">
               <span 
                 style="
-                  font-size: 0.7rem;
+                  font-size: 0.8rem;
                   font-weight: 600;
                   padding: 0.25rem 0.5rem;
                   border-radius: 999px;
@@ -161,7 +161,7 @@
             <div class="mb-4">
               <h4 class="h6 fw-bold mb-3" style="color: var(--color-text-main);">What this service is</h4>
               <ul 
-                class="mb-0 text-muted small"
+                class="mb-0 text-muted"
                 style="line-height: 1.6;"
               >
                 {#each selectedCost.whatIsIt as item}
@@ -178,7 +178,6 @@
                 style="
                   padding-left: 1.25rem;
                   color: var(--color-text-muted);
-                  font-size: 0.9rem;
                   line-height: 1.6;
                 "
               >
@@ -203,11 +202,11 @@
                 "
               >
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span style="color: var(--color-text-muted); font-size: 0.9rem;">Parts:</span>
+                  <span style="color: var(--color-text-muted);">Parts:</span>
                   <span style="color: var(--color-text-main); font-weight: 600;">{selectedCost.priceBreakdown.parts}</span>
                 </div>
                 <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span style="color: var(--color-text-muted); font-size: 0.9rem;">Labor:</span>
+                  <span style="color: var(--color-text-muted);">Labor:</span>
                   <span style="color: var(--color-text-main); font-weight: 600;">{selectedCost.priceBreakdown.labor}</span>
                 </div>
                 <hr style="margin: 0.75rem 0; border-color: var(--color-border);" />
@@ -239,11 +238,11 @@
               >
                 <div>
                   <div class="d-flex justify-content-between align-items-center mb-2">
-                    <span style="color: var(--color-text-muted); font-size: 0.9rem;">Frequency:</span>
+                    <span style="color: var(--color-text-muted);">Frequency:</span>
                     <span style="color: var(--color-text-main); font-weight: 600;">{getFrequencyLabel(selectedCost.frequencyMeter)}</span>
                   </div>
                   <div class="d-flex justify-content-between align-items-center">
-                    <span style="color: var(--color-text-muted); font-size: 0.9rem;">Schedule:</span>
+                    <span style="color: var(--color-text-muted);">Schedule:</span>
                     <span style="color: var(--color-text-main); font-weight: 600;">{selectedCost.frequency}</span>
                   </div>
                 </div>
